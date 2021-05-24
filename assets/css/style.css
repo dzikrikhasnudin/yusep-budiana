@@ -38,13 +38,6 @@ body {
     background-color: #017a65;
 }
 
-.visi {
-    margin-top: -80px;
-}
-
-.hero-img {
-    margin-left: 150px;
-}
 
 .hero-name {
     margin-bottom: 100px;
@@ -65,10 +58,13 @@ body {
     color: #fff;
 }
 
+.visi {
+    margin-top: -80px;
+}
+
 .visi-text {
     border-radius: 24px;
 }
-
 
 .visi-text h2,
 .misi h2,
@@ -101,6 +97,7 @@ body {
     .visi-text {
         padding: 0 20px;
     }
+
 
 }
 
