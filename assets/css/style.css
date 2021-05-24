@@ -1,0 +1,154 @@
+* {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #017a65;
+
+}
+
+.navbar-brand span {
+    font-weight: 600;
+}
+
+.nav-item {
+    margin-right: 24px;
+    font-weight: 400;
+
+}
+
+.nav-item a {
+    color: #fff !important;
+}
+
+.nav-item:hover a {
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+
+.hero {
+    height: 500px;
+    margin-top: 56px;
+    background-color: #017a65;
+}
+
+.visi {
+    margin-top: -80px;
+}
+
+.hero-img {
+    margin-left: 150px;
+}
+
+.hero-name {
+    margin-bottom: 100px;
+}
+
+.hero-name h3 {
+    font: normal 600 28px 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.hero-name h1 {
+    font: italic 800 52px 'Montserrat', sans-serif;
+    color: #FFC90A;
+}
+
+.hero-name p {
+    font: normal 400 28px 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.visi-text {
+    border-radius: 24px;
+}
+
+
+.visi-text h2,
+.misi h2,
+.gagasan h2 {
+    font: normal 700 32px 'Montserrat', sans-serif;
+}
+
+.visi-text p {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    padding: 0 40px;
+    font: normal 400 20px 'Montserrat', sans-serif;
+}
+
+.konten-ganjil {
+    height: 349px;
+    background: rgba(2, 122, 101, 0.3);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+
+@media (max-width: 992px) {
+
+    .konten-genap,
+    .konten-ganjil {
+        margin-bottom: 70px;
+    }
+
+    .visi-text {
+        padding: 0 20px;
+    }
+
+}
+
+.konten-genap {
+    height: 349px;
+    background: #F4FFFF;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.konten-ganjil img,
+.konten-genap img {
+    margin-top: -35px;
+}
+
+.konten-ganjil p,
+.konten-genap p {
+    font: normal 400 20px 'Montserrat', sans-serif;
+    padding: 25px 13px;
+}
+
+.gagasan h2 {
+    margin-top: 42px;
+}
+
+.konten-gagasan {
+    border: 2px solid #017a65;
+    border-radius: 10px;
+    padding: 26px;
+    margin-bottom: 30px;
+}
+
+.konten-gagasan h4 {
+    font: normal bold 24px 'Montserrat', sans-serif;
+    margin-bottom: 12px;
+}
+
+.konten-gagasan p {
+    font: normal 400 20px 'Montserrat', sans-serif;
+}
+
+.konten-gagasan .judul-gagasan {
+    font: normal 700 32px 'Montserrat', sans-serif;
+    padding: 96px 0;
+}
+
+
+footer {
+    background-color: #017a65;
+
+}
