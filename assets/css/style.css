@@ -12,7 +12,7 @@ body {
 
 }
 
-.navbar-brand span {
+.navbar span {
     font-weight: 600;
 }
 
@@ -58,6 +58,32 @@ body {
     color: #fff;
 }
 
+.hero-mobile img {
+    width: 55%;
+}
+
+.mobile-name {
+    position: absolute;
+    margin-top: -30px;
+    border-top: 1px solid #FFC90A;
+    background-color: #017a65;
+}
+
+.mobile-name h1 {
+    font: italic 800 40px 'Montserrat', sans-serif;
+    color: #FFC90A;
+}
+
+.mobile-name h3 {
+    font: normal 600 20px 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.mobile-name p {
+    font: normal 400 20px 'Montserrat', sans-serif;
+    color: #fff;
+}
+
 .visi {
     margin-top: -80px;
 }
@@ -87,6 +113,7 @@ body {
 
 }
 
+
 @media (max-width: 992px) {
 
     .konten-genap,
@@ -95,10 +122,8 @@ body {
     }
 
     .visi-text {
-        padding: 0 20px;
+        padding: 0 5px;
     }
-
-
 }
 
 .konten-genap {
