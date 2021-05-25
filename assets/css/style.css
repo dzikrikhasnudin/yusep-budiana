@@ -36,7 +36,10 @@ body {
     height: 500px;
     margin-top: 56px;
     background-color: #017a65;
+    background-size: cover;
+    position: inherit;
 }
+
 
 
 .hero-name {
@@ -60,6 +63,7 @@ body {
 
 .hero-mobile img {
     width: 55%;
+    overflow-x: auto;
 }
 
 .mobile-name {
@@ -112,7 +116,6 @@ body {
     border-radius: 10px;
 
 }
-
 
 @media (max-width: 992px) {
 
